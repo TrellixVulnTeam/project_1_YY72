@@ -27,11 +27,21 @@
 # if counter > 7:
 #     print('你的智商余额明显不足')
 
-'''
-最大公约数和最小公倍数
-'''
-
-
-def gcd(x, y):
-    if x < y:
-        x, y = y, x
+# '''
+# 最大公约数和最小公倍数
+# '''
+#
+#
+# def gcd(x, y):
+#     if x < y:
+#         x, y = y, x
+#     if y != 0:
+#         公约数 = gcd(x % y, y)
+#         return 公约数
+#     else:
+#         return x
+#
+#
+# x = int(input('x='))
+# y = int(input('y='))
+# print(gcd(x, y), x * y / gcd(x, y))
